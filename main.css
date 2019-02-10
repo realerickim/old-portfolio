@@ -206,11 +206,11 @@ html, body{
     font-size: 5vmin;
 }
 footer {
-    height: 20%;
+    height: 30%;
     background: #f1f1f1;
 }
 #links {
-    height: 80%;
+    height: 70%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -223,8 +223,9 @@ footer {
     color: rgb(85, 85, 85);
 }
 #bottom {
-    height: 20%;
+    height: 30%;
     text-align: center;
+    margin-bottom: 5px;
 }
 #bottom span {
     color: rgb(85, 85, 85);
