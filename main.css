@@ -26,7 +26,7 @@ html, body{
     list-style: none;
     display: flex;
     flex-direction: row;
-    font-size: 16px;
+    font-size: 18px;
 }
 #nav-list a {
     margin-right: 20px;
@@ -38,7 +38,7 @@ html, body{
     width: 36px;
     height: 36px;
     float: left;
-    margin: 3px;
+    margin: 7px;
     margin-left: 15px;
     padding: 12px;
     display: flex;
@@ -46,8 +46,8 @@ html, body{
     align-items: center;
 }
 #profile img{
-    width: 75px;
-    height: 75px;
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
 }
 #logo {
@@ -69,14 +69,14 @@ html, body{
 }
 #welcome-section {
     display: block;
-    margin-left: 7vmin;
-    margin-right: 5%;
-    margin-top: 300px;
+    margin-left: 5vmax;
+    margin-right: 5vmax;
+    margin-top: 250px;
     margin-bottom: 10vmin;
 }
 #welcome-section h1 {
     color: rgb(85, 85, 85);
-    font-size: 7vmin;
+    font-size: 6.5vmax;
 }
 #welcome-section a {
     color: rgb(0, 102, 255);
@@ -91,18 +91,18 @@ html, body{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    font-size: 2.5vmin;
-    margin-left: 7vmin;
+    font-size: 2.3vmax;
+    margin-left: 5vmax;
 }
 #current-status a {
     text-decoration: none;
     color: rgb(0, 102, 255);
 }
 #currently-working {
-    margin-right: 4vmin;
+    margin-right: 12vw;
 }
 #previously-working {
-    margin-left: 4vmin;
+    margin-left: 12vw;
 }
 .link-effect a::before,
 .link-effect a::after {
@@ -145,7 +145,7 @@ html, body{
     color: rgb(85, 85, 85);
 }
 #projects h2 {
-    font-size: 5vmin;
+    font-size: 7vmin;
     margin-left: 7vmin;
     padding-top: 3vmin;
     color: rgb(85, 85, 85);
@@ -163,6 +163,12 @@ html, body{
     width: 40%;
     margin: 20px;
 }
+.project-tile h4 {
+    font-size: 4vmin;
+}
+.project-tile p {
+    font-size: 3.2vmin;
+}
 .project-tile:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
@@ -173,13 +179,13 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10vmin;
-    line-height: 10vmin;
-    height: 50%;
+    margin: 9vmax;
+    line-height: 8.5vmax;
+    max-height: 100%;
 }
 #extra-about h1 {
     color: rgb(85, 85, 85);
-    font-size: 6.5vmin;
+    font-size: 4.5vmax;
 }
 #extra-about a {
     color: rgb(0, 102, 255);
@@ -198,14 +204,18 @@ html, body{
     align-items: center;
 }
 #contact h1 {
+    text-align: center;
+    margin-left: 6vmax;
+    margin-right: 6vmax;
     color: rgb(85, 85, 85);
-    font-size: 6vmin;
+    font-size: 5vmax;
 }
 #contact h2 {
     color: rgb(85, 85, 85);
-    font-size: 5vmin;
+    font-size: 4vmax;
 }
 footer {
+    font-size: 2.3vmax;
     height: 30%;
     background: #f1f1f1;
 }
@@ -236,6 +246,9 @@ footer {
         margin-top: 200px;
     }
     .description {
+        display: none;
+    }
+    #previously-working {
         display: none;
     }
 }
