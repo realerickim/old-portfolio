@@ -240,6 +240,37 @@ footer {
 #bottom span {
     color: rgb(85, 85, 85);
 }
+#goals {
+    margin-top: 75px;
+    padding: 5vmax;
+    font-size: 3vmax;
+}
+#goals li {
+    margin-bottom: 15vmax;
+}
+#goals h1 {
+    font-size: 6vmax;
+}
+.progress {
+    background-color: rgb(175, 175, 175);
+    border-radius: 15px;
+    height: 4vmax;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.progress > div {
+    background: blue;
+    border-radius: 15px;
+    height: 3.5vmax;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.progress span {
+    padding: 5px;
+    margin: 5px;
+}
 
 @media screen and (max-width: 750px) {
     #welcome-section {
