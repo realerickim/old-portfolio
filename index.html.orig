@@ -81,7 +81,11 @@
         </div>
     </section>
     <section id="extra-about">
+<<<<<<< HEAD
+        <h1>When I'm not coding, I love to <a href="https://www.instagram.com/uoftcooks/" target="_blank"></a>
+=======
         <h1>When I'm not coding, I love to <a href="https://www.instagram.com/uoftcooks/" target="_blank">
+>>>>>>> gh-pages
             cook</a>, work out, or learn new <a href="https://www.duolingo.com/realerickim" target="_blank">languages</a>. 
             Check out my <a href="goals.html">goals for 2019</a>. 
         </h1> 
